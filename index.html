@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Section</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e3f2fd;
+        }
+
+        .contact-section {
+            background: linear-gradient(135deg, #ffffff, #e3f2fd);
+            padding: 50px;
+            border-radius: 20px;
+            max-width: 700px;
+            margin: 80px auto;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease;
+        }
+
+        .contact-section:hover {
+            transform: scale(1.02);
+        }
+
+        .contact-container {
+            text-align: center;
+        }
+
+        .contact-section h2 {
+            font-size: 32px;
+            margin-bottom: 25px;
+            color: #0d47a1;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .contact-info {
+            margin-bottom: 30px;
+        }
+
+        .contact-info p {
+            font-size: 18px;
+            margin: 12px 0;
+            color: #1a237e;
+        }
+
+        .contact-info a {
+            color: #1e88e5;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+            color: #1565c0;
+        }
+
+        .cta {
+            margin-top: 20px;
+        }
+
+        .cta h3 {
+            font-size: 26px;
+            margin: 15px 0;
+            color: #0d47a1;
+        }
+
+        .cta p {
+            font-size: 18px;
+            color: #3949ab;
+        }
+
+        @media (max-width: 768px) {
+            .contact-section {
+                padding: 30px;
+            }
+
+            .contact-section h2 {
+                font-size: 28px;
+            }
+
+            .cta h3 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="contact-section">
+        <div class="contact-container">
+            <h2>Contact Information</h2>
+            <div class="contact-info">
+                <p><strong>Email:</strong> <a href="mailto:yourname@example.com">Srivatsa411@gmail.com</a></p>
+                <p><strong>Phone:</strong> +91 9945**3222</p>
+                <p><strong>Location:</strong> Bengaluru, India</p>
+            </div>
+
+            <div class="cta">
+                <h3>Let’s work together!</h3>
+                <p>Feel free to drop a message below.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
